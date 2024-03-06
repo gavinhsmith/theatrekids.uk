@@ -1,0 +1,17 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    /* Fonts */
+    --font-main: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --font-special: "Bebas Neue", var(--font-main);
+
+    /* Backgrounds */
+    --bg-page: url("https://img.itch.zone/aW1nLzY2MDU0NTUucG5n/315x250%23c/5hmQKn.png");
+    --bg-content: url("https://img.freepik.com/free-photo/white-paper-texture_1194-2324.jpg");
+
+    /* Colors */
+    --color-primary: rgba(0,0,0,0.85);
+    --color-text: #0f0f0f;
+    --color-text-secondary: #f0f0f0;
+}

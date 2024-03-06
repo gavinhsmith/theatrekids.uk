@@ -1,0 +1,35 @@
+.flexbox-banner {
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+}
+
+.flexbox-banneritems {
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    padding: 1em;
+    background: var(--color-primary);
+}
+
+
+.banner-link {
+    font-family: var(--font-special);
+    font-size: 1.15em;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+}
+
+.banner-link:hover {
+    color: var(--color-text-secondary);
+    background: none;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 40em) {
+    .banner-link {
+        font-size: 1.5em;
+    }
+}

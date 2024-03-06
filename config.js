@@ -1,10 +1,5 @@
 const CONFIG = {
-    port: 3000,
-    db_structs: {
-        foo: {
-            version: 0,
-            data: []
-        }
-    }
+    port: 8102,
+    db_structs: {}
 }
 module.exports = CONFIG;

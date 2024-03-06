@@ -1,0 +1,118 @@
+/* Everything */
+
+* {
+    font-family: var(--font-main);
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Setup */
+body {
+    background: var(--bg-page);
+    background-size: 7em;
+    background-position: center;
+}
+.main {
+    position: absolute;
+    background: var(--bg-content);
+    background-position: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 8em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content {
+    margin: 2em;
+}
+.footer {
+    font-family: var(--font-special);
+    text-align: center;
+    font-size: 1em;
+}
+@media screen and (min-width: 40em) {
+    .main {
+        width: 55%;
+        min-width: 40em;
+        margin-top: 8em;
+    }
+    .footer {
+        font-size: 1.2em;
+    }
+}
+
+/* Elements */
+.grid {
+    margin: 1em 0em;
+    align-items: center;
+    justify-content: center;
+}
+.grid-row {
+    align-items: center;
+    justify-content: center;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    min-width: 6em;
+    max-width: 20%;
+    text-align: center;
+    background: var(--color-primary);
+    color: var(--color-text-secondary)
+}
+.grid-item > img {
+    width: 100%;
+    max-width: 6em;
+}
+.grid-item > h2, .grid-item > h3 {
+    color: var(--color-text-secondary);
+}
+.flexbox {
+    display: flex;
+    align-items: left;
+    gap: 0.5em;
+}
+.flex-down {
+    flex-direction: column;
+}
+
+.header {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.header-text {
+    max-width: 80%;
+    text-align: center;
+}
+.header-line {
+    border: 0.2em dashed var(--color-primary);
+    flex: auto;
+    max-width: 2em;
+}
+
+.fullwide {
+    width: 100%;
+}
+
+.fullspace {
+    width: 100%;
+    height: 30em;
+}
+.bold {
+    font-weight: bold;
+}
+
+/* Text Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-special);
+    color: var(--color-primary);
+    margin-top: 0.5em;
+}
+a:hover {
+    color: var(--color-text-secondary); 
+    background: var(--color-text);
+}

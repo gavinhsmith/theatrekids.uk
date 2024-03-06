@@ -31,9 +31,35 @@ app.use(function (req, res, next) {
 
 // Main
 app.get('/', (req, res) => {
-    res.render('home', {
-        title: "Test"
-    });
+    res.render('home');
+});
+
+// Blog
+app.get('/blog', (req, res) => {
+    res.render('blog');
+});
+
+// Games
+app.get('/servers', (req, res) => {
+    res.render('servers');
+});
+app.get('/servers/mc2', (req, res) => {
+    fetch("https://api.mcstatus.io/v2/status/java/theatrekids.uk")
+    .then(data => {
+        data.text().then(mc => {
+            res.render('servers/mc2', {
+                minecraft: JSON.parse(mc)
+            });
+        }).catch(err2 => {
+            res.status(500);
+            res.write(err2);
+            res.end();
+        })
+    }).catch(err => {
+        res.status(500);
+        res.write(err);
+        res.end();
+    })  
 });
 
 // Export Express
