@@ -5,7 +5,7 @@ const config = require("./config");
 // Libs
 const initDatabases = require("./libs/db");
 const logger = require("./libs/logger");
-const express = require("./libs/express");
+const express = require("./express");
 
 // Create Folders
 logger.debug("Initiating Program...");
