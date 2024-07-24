@@ -1,5 +1,5 @@
 const CONFIG = {
-    port: 8103,
+    port: 8100,
     db_structs: {
         "users": {
             version: 0,
