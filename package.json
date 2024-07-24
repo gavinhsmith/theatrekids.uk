@@ -4,9 +4,13 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
     "express": "^4.18.2",
     "express-handlebars": "^7.1.2",
     "winston": "^3.11.0"
+  },
+  "scripts": {
+    "update": "git pull && npm i"
   },
   "name": "theatrekids.uk",
   "description": "My personal template for a Handlebars project with Express and Node. Use if you wish, but this is not \"professionally\" maintained in any way, only receives updates when I want to add a root feature.",

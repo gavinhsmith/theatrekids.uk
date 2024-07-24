@@ -1,5 +1,6 @@
+require('dotenv').config()
 const CONFIG = {
-    port: 8100,
+    port: (process.env.NODE_ENV === "production") ? process.env.PORT : 8100,
     db_structs: {
         "users": {
             version: 0,
