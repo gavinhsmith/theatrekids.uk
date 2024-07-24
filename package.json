@@ -10,6 +10,7 @@
     "winston": "^3.11.0"
   },
   "scripts": {
+    "start": "node .",
     "update": "git pull && npm i"
   },
   "name": "theatrekids.uk",
