@@ -22,5 +22,10 @@ route.get('/tkm2', (req, res) => {
     })  
 });
 
+// Game: TKMB
+route.get('/tkmb', (req, res) => {
+    res.render('servers/tkmb');
+});
+
 // Export
 module.exports = route;
