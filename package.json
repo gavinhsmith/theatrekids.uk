@@ -11,6 +11,7 @@
   },
   "scripts": {
     "boot": "npm run update && npm run start",
+    "pm2:boot": "pm2 start pm2.json",
     "update": "git pull && npm i",
     "start": "node ."
   },
