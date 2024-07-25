@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "tk-web",
+            "script": "npm",
+            "args" : "run boot"
+        }
+    ]
+}

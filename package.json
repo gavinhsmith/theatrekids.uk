@@ -10,8 +10,9 @@
     "winston": "^3.11.0"
   },
   "scripts": {
-    "start": "node .",
-    "update": "git pull && npm i"
+    "boot": "npm run update && npm run start",
+    "update": "git pull && npm i",
+    "start": "node ."
   },
   "name": "theatrekids.uk",
   "description": "My personal template for a Handlebars project with Express and Node. Use if you wish, but this is not \"professionally\" maintained in any way, only receives updates when I want to add a root feature.",
