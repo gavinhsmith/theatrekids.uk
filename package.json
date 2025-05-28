@@ -1,22 +1,4 @@
 {
-  "main": "app.js",
-  "keywords": [],
-  "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "dotenv": "^16.4.5",
-    "express": "^4.18.2",
-    "express-handlebars": "^7.1.2",
-    "winston": "^3.11.0"
-  },
-  "scripts": {
-    "boot": "npm run update && npm run start",
-    "pm2:boot": "pm2 start pm2.json",
-    "update": "git pull && npm i",
-    "start": "node ."
-  },
   "name": "theatrekids.uk",
-  "description": "My personal template for a Handlebars project with Express and Node. Use if you wish, but this is not \"professionally\" maintained in any way, only receives updates when I want to add a root feature.",
-  "version": "1.0.0",
-  "author": "gavinhsmith <me@gavinhsmith.com> (https://gavinhsmith.com/)"
+  "packageManager": "yarn@4.9.1"
 }

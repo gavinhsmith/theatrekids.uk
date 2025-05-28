@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
+# Default
 * text=auto
+
+# Yarn
+/.yarn/**            linguist-vendored
+/.yarn/releases/*    binary
+/.yarn/plugins/**/*  binary
+/.pnp.*              binary linguist-generated
