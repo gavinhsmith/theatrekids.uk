@@ -1,7 +1,14 @@
 {
 	"name": "theatrekids.uk",
-	"private": true,
+	"description": "The main location of all of TheatreKids's online antics.",
 	"version": "0.0.1",
+	"author": {
+		"name": "Gavin Smith",
+		"email": "me@gavinhsmith.com",
+		"url": "https://gavinhsmith.com"
+	},
+	"license": "MIT",
+	"private": true,
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
