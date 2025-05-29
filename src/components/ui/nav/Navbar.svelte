@@ -11,7 +11,7 @@
 <!-- Layout -->
 <nav class="flex w-full flex-col bg-accent px-4 py-2 text-base-light md:flex-row">
 	<div class="flex flex-row items-center justify-between md:justify-start">
-		<div class="xl:hidden">
+		<div class="lg:hidden">
 			<Logo />
 		</div>
 		<button
@@ -30,8 +30,8 @@
 			? 'h-fit'
 			: 'h-0'} font-serif text-2xl md:h-full md:w-full"
 	>
-		<a class="hover:text-white transition-colors ml-5 mb-2 md:mb-0" href="/about">About</a>
-		<a class="hover:text-white transition-colors ml-5 mb-2 md:mb-0" href="/blog">News + Updates</a>
+		<a class="hover:text-white transition-colors ml-5 mb-2 md:mb-0" href="/media">Media</a>
+		<a class="hover:text-white transition-colors ml-5 mb-2 md:mb-0" href="/blog">News & Updates</a>
 		<a class="hover:text-white transition-colors ml-5 mb-2 md:mb-0" href="/games">Game Services</a>
 	</div>
 </nav>

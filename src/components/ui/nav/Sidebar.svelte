@@ -4,13 +4,22 @@
 </script>
 
 <!-- Layout -->
-<nav class="sidebar hidden xl:flex flex-col justify-start py-2 px-0 xl:px-2 text-base-light [&>*]:mb-3">
-	<div class="flex flex-row justify-center">
-		<a href="/" class="font-serif text-2xl">
-			<Logo />
-		</a>
+<nav
+	class="sidebar text-base-light hidden w-96 flex-col items-center justify-start px-4 py-2 lg:flex [&>*]:mb-3"
+>
+	<a href="/" class="font-serif text-2xl">
+		<Logo />
+	</a>
+	<div class="flex w-max flex-col items-center font-serif text-sm">
+		<p>"Almost worst than hell. Actually nevermind it is."</p>
+		<p>- Wheels</p>
 	</div>
-	<hr class="border-0.5 border-base-light w-48 mx-3">
+	<hr class="border-base-light w-2/3 border-1 border-dashed" />
+	<div class="flex h-full w-max flex-col items-center justify-between"></div>
+	<hr class="border-base-light w-2/3 border-1 border-dashed" />
+	<div class="flex w-max flex-row justify-center">
+		<p class="w-full font-serif">[c] TheatreKids 2025</p>
+	</div>
 </nav>
 
 <!-- Style -->

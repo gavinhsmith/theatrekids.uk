@@ -1,13 +1,14 @@
 <!-- Script -->
 <script lang="ts">
 	import { page } from '$app/state';
+	import TitleBanner from '../components/text/TitleBanner.svelte';
 </script>
 
 <!-- Layout -->
 <title>{page.status}</title>
 
-<div class="p-5 md:p-10">
-	<h1 class="text-accent font-serif text-4xl">{page.status} - {page.error?.message}</h1>
+<div class="p-5 md:p-10 [&>*]:mb-4 text-lg">
+	<TitleBanner>{page.status} - {page.error?.message}</TitleBanner>
 
 	{#if page.status === 404}
 		<p>The requested resource was not found. Please check your URL and try again.</p>
