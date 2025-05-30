@@ -1,19 +1,19 @@
 <!-- Script -->
 <script lang="ts">
-	import MinecraftServer from '../components/embed/MinecraftServer.svelte';
 	import Header from '../components/text/Header.svelte';
 	import TitleBanner from '../components/text/TitleBanner.svelte';
+	import Newsreel from '../components/ui/nav/Newsreel.svelte';
 </script>
 
 <!-- Layout -->
 <title>TheatreKids</title>
 
 <div class="text-base text-lg">
-	<div class="p-5 md:p-10 [&>*]:mb-4">
+	<Newsreel />
+	<div class="mx-5 my-5 md:mx-15 md:my-10 [&>*]:mb-4">
 		<TitleBanner>TheatreKids</TitleBanner>
 		<p>This shit looked like ass but now it doesn't! Also it's much more usable on mobile! #winning</p>
-		<Header>Recent Updates</Header>
-		<MinecraftServer name="TKM4" ip="smp.theatrekids.uk" />
+		<Header>Recent Headlines</Header>
 	</div>
 </div>
 

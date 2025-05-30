@@ -1,0 +1,14 @@
+.body {
+	background-image: url('/assets/img/bg/bricks.png');
+	background-position: center;
+}
+
+.tv-box {
+	background-image: url('/assets/img/bg/paper.png');
+	background-position: center;
+}
+
+.sidebar {
+	background-image: url('/assets/img/bg/sidebar.png');
+	background-position: center;
+}

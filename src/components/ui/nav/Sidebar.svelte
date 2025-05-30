@@ -1,5 +1,7 @@
 <!-- Script -->
 <script lang="ts">
+	import "../../../styles/bg.css";
+
 	import Logo from '../brand/Logo.svelte';
 </script>
 
@@ -21,11 +23,3 @@
 		<p class="w-full font-serif">[c] TheatreKids 2025</p>
 	</div>
 </nav>
-
-<!-- Style -->
-<style>
-	.sidebar {
-		background-image: url('/assets/img/bg/sidebar.png');
-		background-position: center;
-	}
-</style>
