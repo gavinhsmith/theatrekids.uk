@@ -5,6 +5,7 @@
 
 	import Navbar from '../components/ui/nav/Navbar.svelte';
 	import Sidebar from '../components/ui/nav/Sidebar.svelte';
+	import Newsreel from '../components/ui/nav/Newsreel.svelte';
 	
 	let { children } = $props();
 </script>
@@ -15,6 +16,7 @@
 		<Sidebar />
 		<div class="flex flex-col w-full">
 			<Navbar />
+			<Newsreel />
 			<div class="overflow-y-scroll">{@render children()}</div>
 		</div>
 	</div>
