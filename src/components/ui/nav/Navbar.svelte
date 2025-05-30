@@ -33,7 +33,7 @@
 			: 'h-0'} md:h-full md:flex-row md:items-center md:justify-end md:gap-5"
 	>
 		<a onclick={() => navbarOpen = false} class="transition-colors hover:text-white" href="/media">Media</a>
-		<a onclick={() => navbarOpen = false} class="transition-colors hover:text-white" href="/blog">News & Updates</a>
+		<a onclick={() => navbarOpen = false} class="transition-colors hover:text-white" href="/news">News & Updates</a>
 		<a onclick={() => navbarOpen = false} class="transition-colors hover:text-white" href="/games">Game Services</a>
 	</div>
 </nav>
