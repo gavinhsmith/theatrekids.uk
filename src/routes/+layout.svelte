@@ -11,10 +11,10 @@
 </script>
 
 <!-- Layout -->
-<div class="body w-screen h-screen flex flex-col items-center overflow-y-scroll">
-	<div class="tv-box mt-12 md:mb-12 w-full md:w-5/6 xl:w-2/3 h-full flex flex-row">
+<div class="body w-screen h-screen flex flex-col items-center overflow-y-hidden">
+	<div class="tv-box mt-12 md:mb-12 w-full md:w-5/6 xl:w-2/3 h-full flex flex-row overflow-y-hidden">
 		<Sidebar />
-		<div class="flex flex-col w-full">
+		<div class="flex flex-col w-full h-full overflow-y-scroll">
 			<Navbar />
 			<Newsreel />
 			<div class="overflow-y-scroll">{@render children()}</div>

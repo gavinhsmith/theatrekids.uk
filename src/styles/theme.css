@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Share+Tech+Mono&display=swap');
 @import 'tailwindcss';
 
 @plugin '@tailwindcss/forms';
@@ -6,10 +6,11 @@
 
 @theme {
 	--color-accent: #0f172a;
+	--color-accent-second: #1e1b4b;
 	--color-base: #171717;
 	--color-base-light: #d4d4d4;
 
-	--font-sans: "Merriweather", sans-serif;
+	--font-sans: "Inter", sans-serif;
 	--font-serif: "Bebas Neue", serif;
 	--font-mono: "Share Tech Mono", monospace
 }

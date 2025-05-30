@@ -11,9 +11,9 @@
 <!-- Layout -->
 <nav class="bg-accent text-base-light flex w-full flex-col px-4 py-2 md:flex-row">
 	<div class="flex flex-row items-center justify-between md:justify-start">
-		<div class="lg:hidden">
+		<a onclick={() => navbarOpen = false} href="/" class="lg:hidden">
 			<Logo />
-		</div>
+		</a>
 		<button
 			onclick={() => (navbarOpen = !navbarOpen)}
 			class="touch-manipulation font-serif text-3xl md:hidden {navbarOpen
@@ -32,8 +32,8 @@
 			? 'h-fit'
 			: 'h-0'} md:h-full md:flex-row md:items-center md:justify-end md:gap-5"
 	>
-		<a class="transition-colors hover:text-white" href="/media">Media</a>
-		<a class="transition-colors hover:text-white" href="/blog">News & Updates</a>
-		<a class="transition-colors hover:text-white" href="/games">Game Services</a>
+		<a onclick={() => navbarOpen = false} class="transition-colors hover:text-white" href="/media">Media</a>
+		<a onclick={() => navbarOpen = false} class="transition-colors hover:text-white" href="/blog">News & Updates</a>
+		<a onclick={() => navbarOpen = false} class="transition-colors hover:text-white" href="/games">Game Services</a>
 	</div>
 </nav>
