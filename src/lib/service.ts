@@ -1,5 +1,6 @@
 interface ServiceInformation {
 	name: string;
+	desc_short: string;
 	desc: string;
 	op: string;
 	icon?: 'cube';
@@ -12,7 +13,8 @@ export const fetchServiceInfo = (id: string): Promise<ServiceInformation> => {
 		if (id === 'tkm') {
 			resolve({
 				name: 'TKM',
-				desc: "TK's Offical Minecraft Server",
+				desc_short: "TK's Offical Minecraft Server",
+				desc: "<p>Hey everybody just an FYI I'm after you. Like I've turned evil and shit and I'm after you now.</p>",
 				op: "Wheels",
 				icon: 'cube',
 				id,
@@ -29,7 +31,8 @@ export const fetchServiceInfo = (id: string): Promise<ServiceInformation> => {
 		} else if (id === 'tkmb') {
 			resolve({
 				name: 'TKMB',
-				desc: "TK's Minecraft Server for b1.7.3",
+				desc_short: "TK's Minecraft Server for b1.7.3",
+				desc: "<p>This server is not real.</p>",
 				op: "Wheels",
 				icon: 'cube',
 				id,

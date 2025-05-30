@@ -18,7 +18,7 @@
 
 		<Header>{data.name}</Header>
 
-		<p>{data.desc}</p>
+		<div>{@html data.desc}</div>
 
 		<MinecraftServerInfo
 			name={data.name}

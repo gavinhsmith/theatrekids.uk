@@ -35,7 +35,7 @@
 			</div>
 			<div class="flex flex-col items-start justify-center">
 				<h1 class="font-serif text-3xl">{info.name}</h1>
-				<p class="text-lg">{info.desc}</p>
+				<p class="text-lg">{info.desc_short}</p>
 			</div>
 		</a>
 	{/await}
