@@ -6,6 +6,8 @@
 </script>
 
 <!-- Layout -->
+<title>TheatreKids - Games Services</title>
+
 <div class="text-base text-lg">
 	<div class="mx-5 my-5 md:mx-15 md:my-10 [&>*]:mb-4">
 		<TitleBanner>Game Services</TitleBanner>

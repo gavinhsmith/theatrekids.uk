@@ -12,6 +12,8 @@
 </script>
 
 <!-- Layout -->
+<title>TheatreKids - {data.name}</title>
+
 <div class="text-base text-lg">
 	<div class="mx-5 mt-5 md:mx-15 md:mt-10 [&>*]:mb-4">
 		<TitleBanner>Game Services</TitleBanner>
@@ -33,7 +35,7 @@
 		<div class="flex w-full flex-col items-center">
 			<iframe
 				title="BlueMap"
-				src="{data.special.bluemap}/#world:443:35:630:287:0:0:0:0:perspective"
+				src={data.special.bluemap}
 				frameborder="0"
 				class="aspect-square w-full md:aspect-video"
 			></iframe>
@@ -105,7 +107,7 @@
 		</div>
 
 		{#if data.special.bedrock}
-			<Header>Bedrock - Using GeyserMC</Header>
+			<h2 class="font-serif text-2xl">Bedrock - Using GeyserMC</h2>
 
 			<p>
 				{data.name}'s server software is built for the <span class="font-bold">Java Edition</span>
@@ -134,7 +136,7 @@
 				and you're ready to go!
 			</p>
 
-			<Header>Bedrock - Using BedrockConnect</Header>
+			<h2 class="font-serif text-2xl">Bedrock - Using Bedrock Connect</h2>
 
 			<p>
 				If you are playing on a different device, such as a <span class="font-bold">Console</span>,
@@ -180,5 +182,10 @@
 				into the server at times. Don't worry, the bot still saves your servers.
 			</p>
 		{/if}
+	</div>
+	<div class="mx-5 my-5 md:mx-15 md:my-10 [&>*]:mb-4">
+		<Header>Past Maps</Header>
+
+		<p>This will be our past maps when I get the database running correctly.</p>
 	</div>
 </div>
