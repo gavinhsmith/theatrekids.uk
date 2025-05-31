@@ -53,7 +53,7 @@
 		</div>
 	{/if}
 
-	<div class="mx-5 mt-5 md:mx-15 md:mt-10 [&>*]:mb-4">
+	<div class="mx-5 my-5 md:mx-15 md:my-10 [&>*]:mb-4">
 		<Header>How To Join</Header>
 
 		<p>Get whitelisted... :P</p>
